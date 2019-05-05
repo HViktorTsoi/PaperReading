@@ -1,9 +1,13 @@
 RPN的Anchors原理解析：
-得到60*40的feature map之后
-对于map上的每一个像素，分别由
+
+得到60*40的feature map之后，对于map上的每一个像素，分别由
+
 - 1x1x18(9*2)卷积生成每个像素的9个Anchor的分类信息，即该Anchor是否有目标
+
 - 1x1x36(9*4)卷积生成每个像素的9个Anchot的偏移信息(Dx,Dy,Dw,Dh)，这个信息是用来加到固定的Anchor上的，也就是说，在配置中，我们固定了Anchor有3个大小，3中尺度，共3*3=9个Anchor，但是这种固定大小的肯定是和GroundTruth的大小不能完全匹配，而且负责生成这个Anchor的像素的位置和GroundTruth的中心位置也不能匹配，因此这第二个1x1卷积就是用来尽量的学到固定大小的Anchor和GT之间的大小的位置差距，从而使Proposal更加准确(当然没有Stage 2 的回归更准确，这里只是说相对的准确)。
-其中，固定的基准Anchor是在训练一开始，初始化模型的时候就一次性生成好了，而不是每个像素进行1x1卷积时才生成的，这个固定的基准Anchor+RPN预测的
+
+其中，固定的基准Anchor是在训练一开始，初始化模型的时候就一次性生成好了，而不是每个像素进行1x1卷积时才生成的，这个固定的基准Anchor+RPN预测的偏移值，就得到了Proposal。
 
 在给每个像素生成固定Anchor，且在固定Anchor加上1x1conv的偏移之后，就要求RPN_CLS_LOSS和RPN_PRED_LOSS，通过ground truth box与预测的anchor之间的差异来进行学习，从而使RPN网络中的权重能够学习到预测box的能力。
+
 因此这里Anchor的作用就是，给RPN提供一个回归的基准，如果Anchor本身就很接近大部分目标的形状了，那么RPN就只需要很少的学习量，能够很好的提升学习性能；如果只用1个Anchor，或者不用Anchor，或者基础Anchor的大小和GT相差很大，那么RPN就需要很大的功夫去学习生成的Proposal和GT之间的偏差，甚至可能不收敛。
