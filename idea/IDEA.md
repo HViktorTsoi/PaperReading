@@ -9,3 +9,5 @@ discriminator 加attention
 测试时 不同的前视投影生成不同的视角的图像
 
 structure loss， 保留结构
+
+可见光场景重建
