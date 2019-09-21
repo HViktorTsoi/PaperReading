@@ -7,3 +7,5 @@ WGAN的loss无法直接优化，只能先转化为sup形式，这样必须满足
 discriminator 加attention
 
 测试时 不同的前视投影生成不同的视角的图像
+
+structure loss， 保留结构
