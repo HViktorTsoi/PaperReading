@@ -13,3 +13,5 @@ structure loss， 保留结构
 可见光场景重建
 
 texture loss 反射率和颜色的对应关系
+
+related works 可行性说明
