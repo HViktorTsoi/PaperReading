@@ -19,4 +19,5 @@ related works 可行性说明
 扩张视角
 
 query x key
-第i个点 最应该关注第
+第i个点 最应该关注第j个点
+value j个点的值(关注度是多少)
