@@ -17,3 +17,6 @@ texture loss 反射率和颜色的对应关系
 related works 可行性说明
 
 扩张视角
+
+query x key
+第i个点 最应该关注第
