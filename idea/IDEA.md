@@ -23,3 +23,12 @@ query x key
 value j个点的值(关注度是多少)
 
 ![title](https://raw.githubusercontent.com/HViktorTsoi/gitnote-image/master/gitnote/2019/09/22/1569160167727-1569160167740.png)
+
+
+
+训练1HZ, 测试10Hz
+夜景+路口
+
+可微分上采样
+
+FOV
