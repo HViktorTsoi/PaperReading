@@ -25,7 +25,6 @@ value j个点的值(关注度是多少)
 ![title](https://raw.githubusercontent.com/HViktorTsoi/gitnote-image/master/gitnote/2019/09/22/1569160167727-1569160167740.png)
 
 
-
 训练1HZ, 测试10Hz
 夜景+路口
 
@@ -34,3 +33,17 @@ value j个点的值(关注度是多少)
 FOV
 
 对不同雷达的intensity分布进行重新调整
+
+着重上采样层设计 可微分的上采样层
+
+前视训练 全视角生成 说明具有泛化性能
+
+利用点云分割结果 
+
+点云特征？
+
+解决图像截断的问题
+
+Unet 感受野小的问题 加入膨胀卷积 和更多的skip connection
+
+训练local和global 效率低 local无法直接使用global的结果 相当于重新训练
