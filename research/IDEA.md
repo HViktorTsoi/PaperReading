@@ -119,3 +119,6 @@ deep feature projection
 
 点云分支数据增强 先random rotation 然后在特征投影之前再旋转回来
 
+直接投影 丢失特征(如高度等)
+
+考虑加入聚类
