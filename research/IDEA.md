@@ -124,3 +124,5 @@ deep feature projection
 考虑加入聚类
 
 ***2d图像重投影到3d点云 投影误差
+
+相机死角 雷达生成
