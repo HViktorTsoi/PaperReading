@@ -128,3 +128,5 @@ deep feature projection
 相机死角 雷达生成
 
 激光雷达+图像 去阴影
+
+KITTI 过曝
