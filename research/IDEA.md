@@ -131,4 +131,4 @@ deep feature projection
 
 KITTI 过曝
 
-feature matching loss 取不同的gamma值 
+feature matching loss 取不同的gamma值 选loss最小的那个进行判别
