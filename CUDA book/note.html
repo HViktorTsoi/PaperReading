@@ -1,1 +1,1 @@
-<attachment contenteditable="false" data-atts="%5B%5D" data-aid=".atts-cfb896f5-bdee-46e7-baf9-459f6e55ccfc"></attachment><p>p94-95</p><p>每个block处理blockDim * N个数据</p><p>其中每个线程处理的是threadIdx.x, threadIdx.x+256, ..., threadIdx.x+256*(N-1)的数据</p><p>且恰好每个block有256个xi</p><p><br></p>
+<attachment contenteditable="false" data-atts="%5B%5D" data-aid=".atts-cfb896f5-bdee-46e7-baf9-459f6e55ccfc"></attachment><p>p94-95</p><p>每个block处理blockDim * N个数据</p><p>其中每个线程处理的是threadIdx.x, threadIdx.x+256, ..., threadIdx.x+256*(N-1)的数据</p><p>且恰好每个block有256个线程 这样就可以全部处理完</p><p><br></p>
