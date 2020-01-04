@@ -4,7 +4,7 @@ http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_
 PointNet++
 http://papers.nips.cc/paper/7095-pointnet-deep-hierarchical-feature-learning-on-point-sets-in-a-metric-space.pdf
 MSG：取不同半径的点的特征拼接在一起
-MRG：高层少数点特征pool+低层对应这些少数点的多数点特征拼接
+MRG：高层少数点特征pool+低层对应这些少数点的多数点特征pool拼接
 
 SehllNet
 http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_ShellNet_Efficient_Point_Cloud_Convolutional_Neural_Networks_Using_Concentric_Shells_ICCV_2019_paper.pdf
