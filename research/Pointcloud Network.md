@@ -9,3 +9,6 @@ http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_ShellNet_Efficient_P
 
 Octree guided CNN with Spherical Kernels for 3D Point Clouds
 https://arxiv.org/pdf/1903.00343.pdf
+
+PointCNN
+邻居点feature和邻居点xyz
