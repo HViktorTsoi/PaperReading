@@ -11,4 +11,4 @@ Octree guided CNN with Spherical Kernels for 3D Point Clouds
 https://arxiv.org/pdf/1903.00343.pdf
 
 PointCNN
-邻居点feature和邻居点xyz
+邻居点feature和邻居点xyz提取的feature拼接，由于不同邻居点的顺序对生成不同的点集，学习一个排列矩阵，将邻居点顺序进行重新排列，从而实现
