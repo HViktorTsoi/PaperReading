@@ -132,3 +132,7 @@ deep feature projection
 KITTI 过曝
 
 feature matching loss 取不同的gamma值 选loss最小的那个进行判别
+
+稠密投影 目标检测
+
+普通提特征是抓住主要问题 GAN提特征是要抓住细节；使用pointnet更好的提取边界等特征；语义FM loss
