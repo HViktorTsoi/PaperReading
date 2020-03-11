@@ -140,3 +140,5 @@ feature matching loss 取不同的gamma值 选loss最小的那个进行判别
 不同视角生成
 
 LAB空间或者YUV中 某一个通道对应的是反射率，可不可以从这个角度考虑，直接将LiDAR反射率和图像反射率建立关系？
+
+类似Google net ，中继监督
