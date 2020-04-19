@@ -148,4 +148,4 @@ LAB空间或者YUV中 某一个通道对应的是反射率，可不可以从这�
 ×××× 雷达的遮挡和图像的遮挡不一致：图像的遮挡是由太阳光和环境光源产生的，雷达的遮挡是自身射线的光源产生的
 
 
-XXX 3D Deep Snake(Deep Grid)
+XXX 3D Deep Snake(Deep FIshing Net)
