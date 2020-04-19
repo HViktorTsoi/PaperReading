@@ -149,3 +149,5 @@ LAB空间或者YUV中 某一个通道对应的是反射率，可不可以从这�
 
 
 XXX 3D Deep Snake(Deep FIshing Net)
+
+先predict出bb，再回归pixel-wise mask？
