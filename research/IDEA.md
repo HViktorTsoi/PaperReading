@@ -152,4 +152,4 @@ XXX 3D Deep Snake(Deep FIshing Net)
 
 先predict出bb，再回归pixel-wise mask？
 
-PSMNe
+PSMNet的cost volume aggregation 用cuda重新实现一遍
