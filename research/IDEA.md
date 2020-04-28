@@ -153,3 +153,5 @@ XXX 3D Deep Snake(Deep FIshing Net)
 先predict出bb，再回归pixel-wise mask？
 
 PSMNet的cost volume aggregation 用cuda重新实现一遍
+
+pointnet2 实际上是bacth × n_neighbor个局部点云一起学习
