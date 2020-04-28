@@ -155,3 +155,5 @@ XXX 3D Deep Snake(Deep FIshing Net)
 PSMNet的cost volume aggregation 用cuda重新实现一遍
 
 pointnet2 中的子pointnet实际上是去学习bacth × n_neighbor个局部点云的模式
+
+考虑并行复杂度
